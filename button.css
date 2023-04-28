@@ -1,0 +1,22 @@
+p{
+    font-size: 30px;
+}
+div{
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border:1px solid black;
+}
+#blue{
+    background-color: blue;
+}
+#green
+{
+    background-color: green;
+}
+#red
+{
+    background-color: red;
+}
