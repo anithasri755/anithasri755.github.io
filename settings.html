@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        settings-page
+    </title>
+    <link rel="stylesheet" href="settings.css" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+<div class="container1">
+<div class="box"> 
+    <table class="week-days-checkbox">
+      <h3 class ="Topics">Work Day Settings</h3>
+      <p class ="sub-topics">Choose work days</p>
+        <tr>
+            <td><div class="box1">
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="Monday">
+                <label for="myCheckbox">Monday</label>
+              </div></td>
+            <td><div class="box1">
+              <input type="checkbox" id="myCheckbox" name="myCheckbox" value="Tuesday">
+                <label for="myCheckbox">Tuesday</label>
+              </div></td>
+              <td><div class="box1">
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="Wednesday">
+                <label for="myCheckbox">Wednesday</label>
+              </div></td>
+          </tr>
+          <tr>
+            <td><div class="box1">
+              <input type="checkbox" id="myCheckbox" name="myCheckbox" value="Thursday">
+              <label for="myCheckbox">Thursday</label>
+              </div></td>
+            <td><div class="box1">
+              <input type="checkbox" id="myCheckbox" name="myCheckbox" value="Friday">
+              <label for="myCheckbox">Friday</label>
+              </div></td>
+              <td><div class="box1">
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="Saturday">
+                <label for="myCheckbox">Saturday</label>
+              </div></td>
+          </tr>
+          <tr>
+            <td><div class="box1">
+              <input type="checkbox" id="myCheckbox" name="myCheckbox" value="sunday">
+              <label for="myCheckbox">Sunday</label>
+              </div></td>
+              </tr>
+    </table>
+  </div>  
+</div>
+<br>
+<div class="container1">
+<div class="box7">
+  <h3 class ="Topics">Profile details</h3>
+  <label for="name" class="name">Name</label>
+  <input type="text" id="name" name="name">
+  <br>
+  <br>
+  <label for="age" class="name">Age</label>
+  <input type="text" id="age" name="age">
+  <br>
+  <br>
+  <label for="test-dropdown">Select an option:</label>
+	<select id="test-dropdown" onchange="choice1(this)">
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+</select>
+  <br>
+  <br>
+  <button type="button" id="get-name">Get name</button>
+</div>
+</div>
+<br>
+<div class="container1">
+  <div class="box2"> 
+    <h3 class ="Topics">Work Time Settings</h3>
+    <p class ="sub-topics">Expected work hours</p>
+          <select name="cars" id="cars">
+            <option value="volvo">8 hours</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+          </select> 
+          <p class ="sub-topics">Minimum productive work hours</p> 
+          <select name="cars" id="cars">
+            <option value="volvo">6 hour</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+          </select> 
+          <p class ="sub-topics">Organisation timezone</p>
+          <select name="cars" id="cars">
+            <option value="volvo">Asia/kolkata</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+          </select> 
+          <p class ="sub-topics">Expected Clock-in</p>
+          <select name="cars" id="cars">
+            <option value="volvo">7:00  am</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+          </select> 
+    </div>
+  </div>  
+</div>
+<div class="right">
+  <div class="box3"> 
+    <h3 class ="Topics">Manual Time</h3>
+    <label>
+      <input type="checkbox" name="content" value="Enable manual time to everyone (Learn more)">
+      <span class="color">Enable manual time to everyone (Learn more)</span>
+    </label>
+</div>
+<br>
+<div class="box4"> 
+  <h3 class ="Topics">Report Settings</h3>
+  <label>
+    <input type="radio" name="content" value="Show all users in report">
+    <span class="color">Show all users in report</span>
+  </label>
+  <label>
+    <input type="radio" name="content" value="Exclude admin users in report">
+    <span class="color">Exclude admin users in report</span>
+  </label>
+</div>
+<br>
+<div class="box5"> 
+  <h3 class ="Topics">Screenshot Settings</h3>
+  <label>
+    <input type="checkbox" name="content" value="Enable screen capture">
+    <span class="color">Enable screen capture</span>
+  </label>
+  <br>
+  <br>
+  <label>
+    <input type="checkbox" name="content" value="Blur screen capture">
+    <span class="color">Blur screen capture</span>
+  </label>
+  <br>
+  <p class ="sub-topics">Screen capture interval</p>
+          <select name="cars" id="cars">
+            <option value="volvo">Every 1 min</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+          </select> 
+    <label>
+      <br>
+    <input type="checkbox" name="content" value="Allow to generate timelapse video">
+    <span class="color">Allow to generate timelapse video</span>
+  </label>
+</div>
+<br>
+<div class="box6"> 
+  <h3 class ="Topics">Idle Time Settings</h3>
+  <p class ="sub-topics">Start to consider as idle if the employee is inactive for</p>
+  <select name="cars" id="cars">
+    <option value="volvo">3 min</option>
+    <option value="audi">Audi</option>
+    <option value="bmw">BMW</option>
+    <option value="mercedes">Mercedes</option>
+  </select> 
+</body>
+<script src="settings.js"></script>
+</html>

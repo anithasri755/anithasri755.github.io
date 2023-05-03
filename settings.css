@@ -1,0 +1,132 @@
+ /*Overall space container*/
+.container {
+  display: flex;
+}
+.left {
+  flex: 1;
+  padding: 10px;
+  
+}
+.right {
+  flex: 2;                                                                                              
+  padding: 11px;
+  margin: 2px 0px;
+}
+ /*work time settings in box (left)*/
+.container1 {
+    padding: 2px 14px;
+  }
+   /*work day settings, work time settings*/
+  .Topics{
+    width: 88%;
+    margin: 10px 10px;
+    color: #000;
+  }
+  /*sub topics*/
+  .sub-topics{
+    width: 88%;
+    margin: 10px 10px;
+    color: #4a5568;
+  }
+  /* /*work time settings in box*/ 
+.box {
+    border:1px solid #d3d3d3;
+    padding: 3px;
+    width: 610px;
+    height: 255px;
+    background-color: #F2F2F2;
+    border-radius: 5px
+  }
+   /*work day settings in checkbox*/
+  .box1 {
+    border:1px solid #d3d3d3;
+    padding: 8px;
+    width: 150px;
+    height: 20px;
+    margin: 3px 4px;
+    background-color: #ffffff;
+    border-radius: 5px
+  }
+  /*work time settings in box*/
+  .box2 {
+    border:1px solid #d3d3d3;
+    padding: 3px;
+    width: 610px;
+    height: 450px;
+    background-color: #F2F2F2;
+    border-radius: 5px
+  }
+   /*work time settings in box*/
+  .week-days-checkbox {
+    padding: 5px;
+    width: 97%;
+  }
+  /*Dropdown*/
+  select {
+    width: 73%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 4px;
+   border: 1px solid #d3d3d3;
+  }
+  option {
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+  }
+  /*Report Settings in box (right)*/
+  .box3 {
+    border:1px solid #d3d3d3;
+    padding: 3px;
+    width: 550px;
+    height: 100px;
+    background-color: #F2F2F2;
+    border-radius: 6px
+  }
+  /*Report Settings in box (right)*/
+  .box4 {
+    border:1px solid #d3d3d3;
+    padding: 3px;
+    width: 550px;
+    height: 120px;
+    background-color: #F2F2F2;
+    border-radius: 6px
+  }
+  .color{
+    width: 88%;
+    color: #4a5568;
+  }
+  .box5 {
+    border:1px solid #d3d3d3;
+    padding: 3px;
+    width: 550px;
+    height: 255px;
+    background-color: #F2F2F2;
+    border-radius: 6px
+  }
+  .box6 {
+    border:1px solid #d3d3d3;
+    padding: 3px;
+    width: 550px;
+    height: 140px;
+    background-color: #F2F2F2;
+    border-radius: 6px
+  }
+  .box7 {
+    border:1px solid #d3d3d3;
+    padding: 3px;
+    width: 610px;
+    height: 255px;
+    background-color: #F2F2F2;
+    border-radius: 5px
+  }
+  .name{
+    padding:11px;
+  }
+  
+
+
+
+  
+  
