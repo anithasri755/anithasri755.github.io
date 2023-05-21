@@ -4,20 +4,20 @@
     text-align: center;
 }
 .container{
-    background-color: rgb(230, 117, 37);
+    background-color: rgb(47, 205, 197);
     padding: 50px;
     border-radius: 10px;
-    margin: 100px 480px;
+    margin: 110px 480px;
 }
 
 #heading{
-    color: rgb(251, 251, 251);
+    color: rgb(255, 255, 255);
 }
 
 input[type="text"]{
     margin-top: 8px;
-    height: 3rem;
-    width: 300px;
+    height: 2.9rem;
+    width: 280px;
     border-radius: 8px;
     border: 3px solid rgb(255, 255, 255);
     outline: none;
@@ -30,7 +30,7 @@ input[type="text"]{
 #searchBtn{
     background-color: rgb(56, 54, 54);
     height: 2.3rem;
-    width: 200px;
+    width: 190px;
     color: aliceblue;
     font-size: 1.1rem;
     outline: none;
@@ -41,15 +41,55 @@ input[type="text"]{
 }
 
 input:focus{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     color: rgb(100, 99, 99);
-    border-color: aqua;
+    border-color: rgb(0, 99, 204);
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(94, 98, 102);
 }
   #weatherInfo {
-    margin-top: 30px;
-    color: rgb(251, 251, 251);
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(32, 32, 33);
+    margin-top: 50px;
 }
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .card-box {
+    width: 220px;
+    height: 30px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+  }
+
+  #loading {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(32, 32, 33);
+}
+
+.hidden {
+    display: none;
+}
+#align{
+    text-align: center;
+}
+
+
+
+
+
+
+  
+
   
   
