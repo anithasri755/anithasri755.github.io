@@ -5,20 +5,21 @@ function createCardBox(data) {
   cardBox.classList.add('card-grid');
   cardBox.innerHTML = `
     <div class="card-box">
-      <p>Temperature: ${data.main.temp} &#8451;</p>
+      <p><i class="fas fa-thermometer-half"></i> Temperature: ${data.main.temp} &#8451; </p>
     </div>
     <div class="card-box">
-      <p>Weather: ${data.weather[0].description}</p>
+      <p><i class="fas fa-cloud"></i> Weather: ${data.weather[0].description}</p>
     </div>
     <div class="card-box">
-      <p>Temp Min: ${data.main.temp_min}</p>
+      <p><i class="fas fa-temperature-low"></i> Temp Min: ${data.main.temp_min} &#8451; </p>
     </div>
     <div class="card-box">
-      <p>Temp Max: ${data.main.temp_max}</p>
+      <p><i class="fas fa-temperature-high"></i>Temp Max: ${data.main.temp_max} &#8451;</p>
     </div>
   `;
   return cardBox;
 }
+
 // Existing JavaScript code...
 
 function showLoading() {
@@ -63,3 +64,4 @@ document.getElementById('cityInput').addEventListener('focus', () => {
   weatherInfo.innerHTML = '';
   hideLoading();
 });
+
